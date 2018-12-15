@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Edy's</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Monteserrat:300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>    
+<!-- Header ================================================== -->
+  <header class="animated fadeInDown">
+  <div class="container">
+    <div class="three columns">
+      <div class="logo">
+        <a href="#"><img src="images/logo.png" alt="Edy's" /></a>
+      </div>
+    </div>
+    <div class="nine columns">
+    </div>
+</div>
+      
+  <div class="container">
+  <div class="seven columns headertext animated fadeInDown">
+     <h1>Stock your freezer. Inspiration is here.</h1>
+     <p><strong>BBQs, summer B-days and family reunions are opportunities to show off your creativity. Sprinkler par-tay? Water balloon fight? Bring 'em! With these recipes, you’re covered.</strong></p>
+    <div class="row">
+    </div>
+   </div>
+  </div>
+  </header>
+    
+    <main role="main">
+<!-- Benefits ================================================== -->
+<section class="benefits">
+    <div class="container">
+      <div class="eight columns offset-by-two">
+    <h2>What's Our Story?</h2>
+    <p>Families have included Edy’s in their biggest and smallest moments since 1928. From grandiose reunions to a quiet, rainy Sunday afternoon under the covers – our flavors bring people together. Moms. Dads. Kids. Aunties. Uncles. And BFFs. You’re on our minds. We love dreaming up new ways to surprise you. Tinkering away in our kitchen – channeling our ice cream parlor days of the past and combining real, high quality ingredients. The way we see it, every scoop is a chance to get somebody to stay for dessert, and sweeten the moment.In 1928, candy maker Joseph Edy and ice cream maker William Dreyer form a sweet partnership. Together they created Edy’s and Dreyer’s Ice Cream. A long time ago in a galaxy far far away... </p>
+      </div>
+        
+    <div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+            <img src="images/1.jpg" class="slider-image" />
+            <img src="images/2.jpg" class="slider-image" />
+            <img src="images/3.jpg" class="slider-image" />
+        </div>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+    </div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      </div>
+  </section>
+    <br>
+        
+<!-- Flavors ================================================== -->
+  <section class="pricing">
+    <div class="container">
+      <div class="twelve columns offset-by-two">
+        <h2>Flavors</h2>
+        <p>Find Your Flavor. Get the Scoop.</p>
+      </div>
+      <div class="row">
+        <div align="center">
+        <div class="one-third column">
+          <img src="images/franchvanilla.png" />
+          </div>
+        <div class="one-third column">
+          <img src="images/chocolate.png" />
+        </div>
+        <div class="one-third column">
+          <img src="images/butterpecan.png" />
+        </div>
+          </div>
+        <div align="center">
+        <div class="one-third column">
+          <img src="images/coffee.png"/>
+        </div>
+        <div class="one-third column">
+          <img src="images/mintchocochip.png"/>
+        </div>
+        <div class="one-third column">
+          <img src="images/strawberry.png"/>
+            </div>
+          </div>
+          </div>
+        </div>
+  </section>
+
+<!--Contact Us================================================== -->
+<section class="testimonials">
+  <div class="container">
+    <div class="twelve columns offset-by-two">
+      <h2>Contact Us</h2>
+        <br>
+    <div class="row">
+    <div align="center">
+      <p>What would you like to contact us about?</p>
+    </div>
+    </div>
+    <div class="form-group required">
+        <div class="col-xs-12 col-sm-12 col-md-12"><textarea class="form-control newtextArea" required="required" placeholder="Your message*"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div align="center">
+            <p>Your contact information</p>
+        </div>
+        <div class="form-group required" id="names">
+        <div class="col-xs-12 col-sm-6 col-md-6" for="firstname"><input type="text" class="form-control" required="required" accesskey="" maxlength="40" placeholder="Your first name*" />                   
+        </div>
+                       
+        <div class="col-xs-12 col-sm-6 col-md-6" for="lastname"><input type="text" class="form-control" required="required" maxlength="80" placeholder="Your last name*" />
+        </div>
+        <div class="required">
+            <div class="col-xs-12 col-sm-6 col-md-6 form-group"><input type="text" class="form-control" required="required" placeholder="Your e-mail*" />
+            </div> 
+        <div class="col-xs-12 col-sm-4 col-md-4 form-group" style="margin-bottom: 38px;"><input type="text" class="form-control phoneC" placeholder="Your phone number" />
+        </div> 
+            <div class="form-group">
+            <div class="col-xs-12 col-sm-12 col-md-12"><input value="Contact Us" type="submit" />           
+            </div>                        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- Footer ================================================== -->
+<footer>
+  <div class="container">
+    <div class="eight columns">
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </nav>
+    </div>
+ 
+    <div class="two columns">
+      <img src="images/small_logo.png" />
+    </div>
+ 
+    <div class="two columns">
+      <p>&copy; 2018. Edy's All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
